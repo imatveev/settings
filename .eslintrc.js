@@ -9,6 +9,8 @@ module.exports = {
         'no-dupe-keys':         2,
         'no-extra-semi':        1,
         'use-isnan':            1,
+	    'vars-on-top':          1,
+	    'no-loop-func':         1,
         'no-console':           1,
         'no-unreachable':       2,
         'no-native-reassign':   2,
@@ -35,7 +37,8 @@ module.exports = {
         'node':      true,
         'mocha':     true,
         'es6':       true,
-        'phantomjs': true
+        'phantomjs': true,
+	'browser':   true
     },
     'extends': 'eslint:recommended',
 };

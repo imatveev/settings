@@ -27,7 +27,7 @@ module.exports = {
         'no-unused-vars':       [1, {'vars': 'all', 'args': 'after-used'}]
     },
     'parserOptions': {
-        'ecmaVersion': 6,
+        'ecmaVersion': 2017,
         'ecmaFeatures': {
             'forOf':         true,
             'blockBindings': true

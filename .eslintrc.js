@@ -9,8 +9,9 @@ module.exports = {
         'no-dupe-keys':         2,
         'no-extra-semi':        1,
         'use-isnan':            1,
-	    'vars-on-top':          1,
-	    'no-loop-func':         1,
+	'vars-on-top':          1,
+	'no-loop-func':         1,
+	'no-loop-func':         1,
         'no-console':           1,
         'no-unreachable':       2,
         'no-native-reassign':   2,
@@ -40,5 +41,5 @@ module.exports = {
         'phantomjs': true,
 	'browser':   true
     },
-    'extends': 'eslint:recommended',
+    'extends': ['eslint:recommended', 'airbnb-base']
 };

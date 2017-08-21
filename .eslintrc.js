@@ -22,6 +22,7 @@ module.exports = {
 	'no-multi-spaces':      0,
 	'arrow-parens':         0,
 	'arrow-body-style':     0,
+	'no-param-reassign':    [2, { "props": true, "ignorePropertyModificationsFor": ["app"] }],
         'no-extra-parens':      [1, 'all'],
         'strict':               [1, 'global'],
         'comma-dangle':         [0, 'always-multiline'],

@@ -22,7 +22,7 @@ module.exports = {
         'no-extra-parens':      [1, 'all'],
         'strict':               [1, 'global'],
         'comma-dangle':         [0, 'always-multiline'],
-        'indent':               [1, 4],
+        'indent':               [1, 4, {'MemberExpression': 'off'}],
         'quotes':               [0, 'single'],
         'linebreak-style':      [2, 'unix'],
         'semi':                 [1, 'always'],

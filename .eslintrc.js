@@ -20,6 +20,7 @@ module.exports = {
         'no-var':               2,
         'prefer-const':         0,
 	'no-multi-spaces':      0,
+	'arrow-parens':         0,
         'no-extra-parens':      [1, 'all'],
         'strict':               [1, 'global'],
         'comma-dangle':         [0, 'always-multiline'],

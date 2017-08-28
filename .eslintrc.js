@@ -26,7 +26,7 @@ module.exports = {
     	'key-spacing':                       0,
     	'array-bracket-spacing':             0,
     	'import/no-extraneous-dependencies': [ "error", {"devDependencies": ["**/test/**"]} ],
-    	'no-param-reassign':                 [ 2, { "props": true, "ignorePropertyModificationsFor": ["app", "async"] } ],
+    	'no-param-reassign':                 [ 2, { "props": true, "ignorePropertyModificationsFor": ["app", "async", "ctx"] } ],
         'no-extra-parens':                   [ 1, 'all' ],
         'strict':                            [ 1, 'global' ],
         'comma-dangle':                      [ 0, 'always-multiline' ],
